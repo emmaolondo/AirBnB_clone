@@ -1,0 +1,14 @@
+/* header css*/
+header{
+	background-color: white;
+	height: 70px;
+	width: 100%;
+	border-bottom: 1px solid #cccccc;
+}
+.logo{
+	background: url("../images/logo.png") no-repeat;
+	margin-left: 20px;
+	display: block;
+	background-position: left;
+	height: 100%;
+}
