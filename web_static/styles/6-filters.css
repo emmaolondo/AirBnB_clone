@@ -49,3 +49,44 @@
 	top: 10%;
 	margin: 2px 20px;
 }
+.popover{
+	background-color: #FAFAFA;
+	width: 100%;
+	border: #DDDDDD 1px solid;
+	border-radius: 4px;
+	margin: 0;
+	display: none;
+	width: 250px;
+	padding: 20px;
+	box-sizing: border-box;
+	list-style: none;
+	top: 100%;
+	position: absolute;
+	left: 0;
+
+}
+.popover h2{
+	font-size: 16px;
+}
+.popover ul{
+	list-style-type: none;
+	padding: 0;
+}
+div:hover > .popover{
+	display: block;
+	cursor: pointer;
+}
+.popover li{
+	margin: 10px 0 5px 0;
+	list-style: none;
+	padding: 0;
+	border: none;
+	display: block;
+	grid-row-gap: 20px;
+}
+.locations:hover > .popover{
+	display: block;
+}
+.amenities:hover > .popover{
+	display: block;
+}
